@@ -1,0 +1,41 @@
+body {
+	text-align: center;
+}
+
+/*	background: linear-gradient(#5680A0, #0C527B);*/
+
+}
+section.main {
+float: left;
+}
+.img1 {
+	float: left;
+}
+.inlineB {
+	display: inline-block;
+}
+/*.brandButton {
+	display: inline-block;
+}*/
+.contentWrapper {
+	clear: left;
+	/*display: inline-block;*/
+}
+/*h2 {
+	display: inline-block;
+}*/
+h2 .bold{
+	font-weight: 700;
+}
+/*.img {
+	position: relative;
+}*/
+/*footer navigation style*/
+footer {
+	clear: both;
+}
+.nav a{
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
