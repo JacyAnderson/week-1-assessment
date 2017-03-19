@@ -1,32 +1,54 @@
 body {
 	text-align: center;
+
 }
 
 /*	background: linear-gradient(#5680A0, #0C527B);*/
 
 }
-section.main {
-float: left;
+.main {
+	vertical-align: top;
+/* sets total width for both side content classes*/
+	width: 100%;
 }
 .img1 {
+	float: right;
+	overflow: hidden;
+}
+.leftSideContent {
 	float: left;
+	width: 50%;
+}
+.rightSideContent {
+	float: right;
+	width: 32%;
+	min-width: 300px;
+	/*max-width: 45%;*/
+	text-align: left;
+	padding: 0 100px 0 0;
+}
+.brandAndButton {
+	display: block;
+
+}
+button {
+float: right;
+/*margin: 25px 0 0 150px;*/
 }
 .inlineB {
 	display: inline-block;
 }
 /*.brandButton {
-	display: inline-block;
+	
 }*/
 .contentWrapper {
 	clear: left;
-	/*display: inline-block;*/
+	border: 1px solid black;
+	padding: 0px 22px 22px 22px;
 }
 /*h2 {
 	display: inline-block;
 }*/
-h2 .bold{
-	font-weight: 700;
-}
 /*.img {
 	position: relative;
 }*/
