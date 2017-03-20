@@ -1,3 +1,4 @@
+/*controls  entire content*/
 body {
 	text-align: center;
 	background: linear-gradient(#5680A0, #0C527B);
@@ -5,41 +6,43 @@ body {
 	background-repeat: no-repeat;
 
 }
-
+/*styles elements with Noto Sans font family*/
 .font {
 	font-family: 'Noto Sans', sans-serif;
 }
-
+/*adds text shadow to elements tagged with class*/
 .textShadow {
 	text-shadow: 1px 1px #000000;
 }
-
+/*controls both leftSideContent and rightSideContent width and top margin*/
 .main {
 	width: 100%;
 	margin-top: 100px;
 }
-
+/*iphone image styling*/
 .img1 {
 	float: right;
 	padding-right: 30px;
 }
-
+/*controls box around iphone image*/
 .leftSideContent {
 	float: left;
 	width: 42%;
 }
-
+/*controls .brandAndButton, button, .buttonText, .contentWrapper, and all other content on page's left side*/
 .rightSideContent {
 	float: left;
 	width: 38%;
 	min-width: 470px;
 	text-align: left;
 }
+/*sets width to insta brand pic and button div width and display*/
 .brandAndButton {
 	display: block;
 	width: 100%;
 }
 
+/*styles log-in button */
 button {
 	float: right;
 	margin-top: 24px;
@@ -48,6 +51,7 @@ button {
 	font-weight: 700;
 }
 
+/*styles text in button*/
 .buttonText {
 	color: #ddd;
 	font-size: 12px;
@@ -57,18 +61,22 @@ button {
 	bottom: 5px;
 }
 
+/*adds a change of background color when hovering over button*/
 button:hover {
 	background-color: #0B517A; 
 }
 
+/*adds padding to push log in text away from home logo*/
 .homeLogo {
 	padding-right: 10px;
 }
 
+/*class controling display type for elements with class .inlineB*/
 .inlineB {
 	display: inline-block;
 }
 
+/*wrapper around main text content in .rightSideContent div*/
 .contentWrapper {
 	clear: left;
 	background-color: white;
@@ -78,28 +86,33 @@ button:hover {
 	margin-top: 30px;
 }
 
+/*sets color for h2 heading*/
 .contentHeading {
 	color: rgb(12, 82, 123);
 }
 
+/*adds space between app links*/
 .appLinks {
 	padding: 20px 0 0 0;
 }
 
+/*adds hover opacity change to app links*/
 .apps:hover {
 	opacity: 0.5;
 }
 
-
+/*pads google play link to make more space between app links*/
 .googlePlay {
 	padding-left: 10px;
 }
 
+/*controls styling for all footer content and box*/
 footer {
 	clear: both;
 	padding-top: 40px;
 }
 
+/*styles all links and increases spacing between them*/
 .nav a{
 	text-transform: uppercase;
 	text-decoration: none;
@@ -109,10 +122,12 @@ footer {
 	padding: 0px 7px 0 7px;
 }
 
+/*adds hover att/changes color when hovering over links*/
 .nav a:hover {
 	color: #5680A0;
 }
 
+/*styles copyright and moves it inline with .nav a elements*/
 .copyright {
 	display: inline-block;
 	font-size: 12px;

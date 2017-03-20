@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- outside font Noto Sans style sheet -->
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+	<!-- link to css style sheet -->
 	<link rel="stylesheet" href="css/style.css" >
+	<!-- scales to device width -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- site title in browser tab -->
 	<title>Intagram Log In</title>
 </head>
+<!-- entire visible doc content -->
 <body>
+
 	<section class="top">
 		
 	</section>
-	<!-- contains main body elements -->
+	<!-- contains main body elements including left and right columns - class is set to make all contents inlineBlock -->
 	<section class="main inlineB">
+		<!-- div to control phone image and padding, floats, etc -->
 		<div class="leftSideContent inlineB">
 		<!-- Phones image -->
-		<img src="images/phones.png" alt="iPhone pictures" class="img img1 inlineB">
+			<img src="images/phones.png" alt="iPhone pictures" class="img img1 inlineB">
 		</div>
+		<!-- controls right side content, including logo, log in button, and description/description header -->
 		<div class="rightSideContent">
 			<!-- Instagram brand photo/login container -->
 			<div class="brandAndButton inlineB">
+				<!-- Insta logo -->
 				<img src="images/brand.png" alt="brand logo" class="img brand">
 				<!-- Instagram log-in -->
 				<button class="font"><img src="images/home.png" alt="home icon" class="homeLogo"><span class="buttonText textShadow">Log in</span></button>
@@ -31,24 +40,38 @@
 				<p>Oh yeah, did we mention it's free?</p>	
 				<div class="appLinks">
 				<!-- App store and Google Play links/images -->
+				<!-- 	App store link -->
 					<a href="#" class="apps"><img src="images/badge-iphone.png" alt="app store link"></a>
-					<a href="#" class="apps googlePlay"><img src="images/badge-android.png" alt="google play link"> </a>
+					<!-- Google play link -->
+					<a href="#" class="apps googlePlay"><img src="images/
+					badge-android.png" alt="google play link"> </a>
 				</div>
 			</div>
 		</div>
 	</section>
+	<!-- includes bottom nav and copyright sections -->
 	<section class="bottom">
+
 		<footer>
-			<!-- Bottom navigation and copyright -->
+			<!-- Bottom navigation and copyright with classes to control all fonts and nav info -->
 			<ul class="nav font">
+				<!-- links to 'about us' page -->
 				<a href="#">About Us</a>
+				<!-- links to 'support' page -->
 				<a href="#">Support</a>
+				<!-- links to 'blog' page -->
 				<a href="#">Blog</a>
+				<!-- links to 'press' page -->
 				<a href="#">Press</a>
+				<!-- links to 'insta api' page -->
 				<a href="#">Api</a>
+				<!-- links to 'jobs @ instagram' page -->
 				<a href="#">Jobs</a>
+				<!-- links to 'privacy policy' page -->
 				<a href="#">Privacy</a>
+				<!-- links to 'terms and agreements' page -->
 				<a href="#">Terms</a>
+				<!-- copyright to be aligned next to <a> elements -->
 				<p class="font copyright">©2014 instagram</p>
 			</ul>
 		</footer>
