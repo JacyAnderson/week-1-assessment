@@ -1,68 +1,116 @@
 body {
 	text-align: center;
 	background: linear-gradient(#5680A0, #0C527B);
-	background-size: 100% 45%;
+	background-size: 100% 40%;
 	background-repeat: no-repeat;
+
 }
+
+.font {
+	font-family: 'Noto Sans', sans-serif;
+}
+
 .main {
 /*	vertical-align: top;*/
 /* sets total width for both side content classes*/
 	width: 100%;
 	margin-top: 100px;
 }
+
 .img1 {
 	float: right;
 	overflow: hidden;
 	padding-right: 30px;
 }
+
 .leftSideContent {
 /*	position: absolute;
 	left: -100px;*/
 	float: left;
 	width: 42%;
 }
+
 .rightSideContent {
-	/*position: absolute;
-	right: 200px;*/
 	float: left;
 	width: 38%;
 	min-width: 470px;
-	/*max-width: 45%;*/
 	text-align: left;
 }
 .brandAndButton {
 	display: block;
+	width: 100%;
+}
 
-}
-.brand {
-	padding-right: 80px;
-}
 button {
 float: right;
 margin-top: 27px;
-/*margin: 25px 0 0 150px;*/
+background-color: #5680A0;
+border-radius: 2px;
+font-weight: 700;
 }
+
+.buttonText {
+	color: #ddd;
+	font-size: 12px;
+	text-shadow: 3px;
+	padding:0 3px 5px 0;
+	position: relative;
+	bottom: 5px;
+}
+
+button:hover {
+	background-color: #0B517A; 
+}
+
+.homeLogo {
+	padding-right: 10px;
+}
+
 .inlineB {
 	display: inline-block;
 }
+
 .contentWrapper {
 	clear: left;
 	background-color: white;
-	border: 1px solid black;
-	padding: 0px 22px 0px 22px;
+	box-shadow: 1px 1px 2px 1px #bbb;
+	border-radius: 7px;
+	padding: 10px 22px 0px 22px;
 	margin-top: 30px;
 }
+
 .contentHeading {
 	color: rgb(12, 82, 123);
 }
+
 .appLinks {
-	padding: 40px 0 0 0;
+	padding: 20px 0 0 0;
 }
+
+.googlePlay {
+	padding-left: 10px;
+}
+
 footer {
 	clear: both;
+	padding-top: 40px;
 }
+
 .nav a{
 	text-transform: uppercase;
 	text-decoration: none;
+	color: #0c527b;
+	font-weight: 700;
+	font-size: 12px;
+	padding: 0px 7px 0 7px;
 }
 
+.nav a:hover {
+	color: #5680A0;
+}
+
+.copyright {
+	display: inline-block;
+	font-size: 12px;
+	color: rgba(191, 191, 191, .7);
+}
