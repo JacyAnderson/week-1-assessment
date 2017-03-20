@@ -10,22 +10,21 @@ body {
 	font-family: 'Noto Sans', sans-serif;
 }
 
+.textShadow {
+	text-shadow: 1px 1px #000000;
+}
+
 .main {
-/*	vertical-align: top;*/
-/* sets total width for both side content classes*/
 	width: 100%;
 	margin-top: 100px;
 }
 
 .img1 {
 	float: right;
-	overflow: hidden;
 	padding-right: 30px;
 }
 
 .leftSideContent {
-/*	position: absolute;
-	left: -100px;*/
 	float: left;
 	width: 42%;
 }
@@ -42,11 +41,11 @@ body {
 }
 
 button {
-float: right;
-margin-top: 27px;
-background-color: #5680A0;
-border-radius: 2px;
-font-weight: 700;
+	float: right;
+	margin-top: 24px;
+	background-color: #5680A0;
+	border-radius: 2px;
+	font-weight: 700;
 }
 
 .buttonText {
@@ -86,6 +85,11 @@ button:hover {
 .appLinks {
 	padding: 20px 0 0 0;
 }
+
+.apps:hover {
+	opacity: 0.5;
+}
+
 
 .googlePlay {
 	padding-left: 10px;
